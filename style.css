@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.topo {
+    background: #eef2f6;
+    padding: 60px 0;
+}
+
+.topo h1 {
+    font-size: 32px;
+    color: #002d5b;
+}
+
+.topo p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Seção CTA */
+.meio {
+    background: #0073e6;
+    color: white;
+    padding: 50px 0;
+}
+
+.meio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.botao {
+    background: white;
+    color: #0073e6;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background: #005bb5;
+    color: white;
+}
+
+/* Benchmark Report */
+.fim {
+    background: white;
+    padding: 60px 0;
+}
+
+.fim h2 {
+    font-size: 24px;
+    color: #002d5b;
+    margin-bottom: 10px;
+}
+
+.fim .botoes {
+    margin-top: 20px;
+}
+
+.fim button {
+    background: #eef2f6;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fim button:hover {
+    background: #0073e6;
+    color: white;
+}
+
+/* Rodapé */
+.footer {
+    background: #002d5b;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+}
