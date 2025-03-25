@@ -34,13 +34,13 @@ body {
 }
 
 /* Seção CTA */
-.meio {
+.meio1 {
     background: #0073e6;
     color: white;
     padding: 50px 0;
 }
 
-.meio h2 {
+.meio1 h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -62,22 +62,22 @@ body {
 }
 
 /* Benchmark Report */
-.fim {
+.meio2 {
     background: white;
     padding: 60px 0;
 }
 
-.fim h2 {
+.meio2 h2 {
     font-size: 24px;
     color: #002d5b;
     margin-bottom: 10px;
 }
 
-.fim .botoes {
+.meio2 .botoes {
     margin-top: 20px;
 }
 
-.fim button {
+.meio2 button {
     background: #eef2f6;
     border: none;
     padding: 10px 20px;
@@ -87,7 +87,7 @@ body {
     border-radius: 5px;
 }
 
-.fim button:hover {
+.meio2 button:hover {
     background: #0073e6;
     color: white;
 }
